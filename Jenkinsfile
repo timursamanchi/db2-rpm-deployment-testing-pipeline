@@ -15,7 +15,7 @@ EOF
         stage('Install DB2') {
             steps {
                 sh '''
-                    echo "this is another test from Timur" >> /home/ec2-user/my-new.txt
+                    echo "this is another test from Timur" 
                 '''
             }
         }

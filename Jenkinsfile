@@ -16,7 +16,7 @@ EOF
             steps {
                 sh '''
                     echo "Building DB2 server deployment"
-                    sudo dfn update
+                    cat /home/ec2-user/my-new.txt
                 '''
             }
         }

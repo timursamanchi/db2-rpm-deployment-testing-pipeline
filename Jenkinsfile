@@ -16,6 +16,8 @@ EOF
             steps {
                 script {
                     echo "Workspace Directory : ${env.WORKSPACE}"
+                    rm -rf ${env.WORKSPACE}
+
                 }
             }
         }

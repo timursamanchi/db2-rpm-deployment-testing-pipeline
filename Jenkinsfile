@@ -15,7 +15,8 @@ EOF
         stage('Install DB2') {
             steps {
                 sh '''
-                    echo "this is another test from Timur" 
+                    echo "Building DB2 server deployment"
+                    sudo dfn update
                 '''
             }
         }

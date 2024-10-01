@@ -16,6 +16,7 @@ EOF
             steps {
                 sh '''
                     echo "Building DB2 server deployment"
+                    pwd
                     cat /home/ec2-user/my-new.txt
                 '''
             }

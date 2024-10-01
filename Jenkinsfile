@@ -12,13 +12,11 @@ EOF
                 '''
             }
         }
-        stage('Install DB2') {
+        stage('Show Workspace') {
             steps {
-                sh '''
-                    echo "Building DB2 server deployment"
-                    pwd
-                    hostname
-                '''
+                script {
+                    echo "Workspace Directory : ${env.WORKSPACE}"
+                }
             }
         }
     }
